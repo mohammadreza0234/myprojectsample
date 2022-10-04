@@ -6,9 +6,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
-import org.openqa.selenium.support.ui.WebDriverWait;
+
 
 public class sauceDemo {
 
@@ -67,11 +66,11 @@ public class sauceDemo {
 		Thread.sleep(1000);
 
 		WebElement firstName = driver.findElement(By.id("first-name"));
-		firstName.sendKeys("Emine");
+		firstName.sendKeys("Enver");
 		Thread.sleep(1000);
 
 		WebElement lastName = driver.findElement(By.id("last-name"));
-		lastName.sendKeys("Michel");
+		lastName.sendKeys("Baumeister");
 		Thread.sleep(1000);
 
 		WebElement postalCode = driver.findElement(By.xpath("//input[@id='postal-code']"));
